@@ -36,7 +36,7 @@ RUN echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" > /et
 # note the proxy for gpg
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
-ENV R_BASE_VERSION 3.5.2
+ENV R_BASE_VERSION 3.6.0
 ENV DEBIAN_FRONTEND noninteractive
 
 # Now install R and littler, and create a link for littler in /usr/local/bin
